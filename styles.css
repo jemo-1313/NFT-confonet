@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{    
+    font-family: 'Outfit', sans-serif;
+    margin: 152px;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #0D192C;    
+}
+
+.main-box {
+    width: 350px;
+    background-color: #15263F;
+    border-radius: 15px;
+    padding: 24px 24px 32px 24px;
+}
+
+h1{
+    cursor: pointer;
+    margin-top: 24px;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    width: 302px;
+    color: #FFFFFF;
+}
+
+h1:hover {
+    color: #00FFF8;
+}
+
+.text-1{
+    margin-top: 16px;
+    font-style: normal; 
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 26px;
+    color: #8BACD9;
+    width: 302px;
+}
+
+img{
+    width: 302px;
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.img-box {
+    display: flex;
+    height: 302px;
+    align-items: center;
+    justify-content: center;        
+    cursor: pointer;    
+    width: 302px;
+    border-radius: 8px;
+    position: absolute;
+    background-color:rgba(0, 255, 248, 0.5);
+    opacity: 0;
+}
+
+.img-box:hover {
+    opacity: 1;
+}
+
+.hidden-img{   
+    color: #FFFFFF;
+    width: 44px;
+} 
+
+.box-2 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.left-box{
+    display: flex;
+    justify-content: space-between;
+    gap: 6.48px;
+}
+
+.ethereum-img {
+    align-self: center;
+    width: 11px;
+}
+
+.rigth-box {
+    gap: 9.03px;
+    display: flex;   
+}
+
+.clock-img {
+    width: 13.33px;
+   height: 13.33px;
+   align-self: center;
+}
+
+.text-2{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #00FFF8;
+}
+
+.text-3 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #8BACD9;
+}
+
+.box-3 {
+    background-color: #2E405A;
+    height: 1px;
+    margin-top: 24px;
+}
+
+.box-4 {
+    margin-top: 16px;
+    display: flex;
+    
+}
+
+.face-img {
+    width: 33px;
+    margin-right: 16px;
+    border: 1px solid #FFFFFF;
+    border-radius: 19px; 
+}
+
+.text-4 {
+    margin-right: 5px;
+    margin-top: 6px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+    color: #8BACD9;    
+}
+
+.text-5 {    
+    cursor: pointer;
+    margin-top: 6px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20.16px;
+}
+
+.text-5:hover {
+    color: #00FFF8;
+}
+
+
+
+
+
